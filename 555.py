@@ -23,7 +23,7 @@ st.latex(r"E=mc^2")
 import streamlit as st
 import numpy as np
 import pandas as pd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 # Title
 st.title("Histogram Example")
