@@ -23,7 +23,7 @@ st.latex(r"E=mc^2")
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 # Title
 st.title("Histogram Example")
@@ -32,12 +32,12 @@ st.title("Histogram Example")
 data = np.random.normal(loc=1, scale=2, size=5000)
 
 # Create the plot
-fig, ax = plt.subplots()
-ax.hist(data, bins=15, color="skyblue", edgecolor="black")
-ax.set_title("Histogram of Normal Distribution (mean=1, std=2)")
+#fig, ax = plt.subplots()
+#ax.hist(data, bins=15, color="skyblue", edgecolor="black")
+#ax.set_title("Histogram of Normal Distribution (mean=1, std=2)")
 
 # Display in Streamlit
-st.pyplot(fig)
+#st.pyplot(fig)
 
 df = pd.DataFrame(np.random.randn(10, 2), columns=['product A', 'product B'])  
 print(df)
